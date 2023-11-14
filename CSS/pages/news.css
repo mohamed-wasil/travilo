@@ -1,0 +1,128 @@
+.news-banner {
+    background-image: url(../../pic/news/banner-5.jpg);
+}
+
+/* start side  */
+.news-side .card-r .card-info li span {
+    font-family: magic;
+    color: var(--main-color);
+}
+
+.news-side .card-r .card-info>a {
+    font-size: 36px;
+}
+
+.news-side .card-r .card-end a {
+    font-family: magic;
+    padding: 10px 25px;
+}
+
+.news-side .card-r .card-end .right ul li,
+.news-side .card-r .card-end .right ul li a {
+    font-size: 18px;
+    font-family: magic;
+}
+
+.news-side .card-r .card-end .right ul li:nth-child(2) a i {
+    color: var(--facebook-color);
+}
+
+.news-side .card-r .card-end .right ul li:nth-child(3) a i {
+    color: var(--twitter-color);
+}
+
+.news-side .card-r .card-end .right ul li:nth-child(4) a i {
+    color: var(--linkedin-color);
+}
+
+.news-side .box-1 span {
+    font-size: 20px;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.news-side .box-2 .box-img {
+    max-width: 84px;
+    height: 84px;
+}
+
+.news-side .box-2 .box-img img {
+    animation: none;
+    border-radius: 5px;
+}
+
+.news-side .box-2 .box-caption h5 a,
+.news-side .box-3 ul li a {
+    color: var(--secondary-color);
+}
+
+.news-side .box-3 ul li a {
+    font-family: magic;
+}
+
+.news-side .box-2 .box-caption h5 a:hover,
+.news-side .box-3 ul li a:hover {
+    color: var(--main-color);
+}
+
+.news-side .box-4 ul li .btn {
+    padding: 8px 25px;
+    color: var(--secondary-color);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    font-family: General;
+    font-size: 14px;
+}
+
+.news-side .box-4 ul li .btn:hover {
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.news-side .box-5 a img {
+    border-radius: 5px;
+    animation: none;
+}
+
+.news-side .box-5 li {
+    width: 80px;
+    height: 80px;
+}
+
+.news-side .box-5 a .overlay {
+    background-color: #ffffff31;
+    opacity: .3;
+    transition: var(--main-transition);
+}
+
+.news-side .box-5 a:hover .overlay {
+    opacity: 1;
+}
+
+.news-side .box-6 .social .links li {
+    width: 60px;
+    height: 60px;
+}
+
+.news-side .box-6 .social .links li:nth-child(1) {
+    background-color: var(--facebook-color);
+}
+
+.news-side .box-6 .social .links li:nth-child(2) {
+    background-color: var(--twitter-color);
+}
+
+.news-side .box-6 .social .links li:nth-child(3) {
+    background-color: var(--linkedin-color);
+}
+
+.news-side .box-6 .social .links li:nth-child(4) {
+    background-color: var(--youtube-color);
+}
+
+.news-side .box-6 .social .links li:hover {
+    background-color: var(--main-color);
+}
+
+/* end side  */

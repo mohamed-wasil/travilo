@@ -1,0 +1,134 @@
+.travel {
+    padding: 100px 0 125px;
+}
+.travel .travel__img-r{
+    right: 8%;
+}
+.travel .travel__img2-r{
+    right: 0%;
+    top: -30%;
+}
+.travel .image-1 img {
+    left: 20%;
+    transform: rotate(15deg);
+    width: 75%;
+}
+
+.travel .image-2 {
+    left: 0;
+    top: 45%;
+    transform: rotate(-15deg);
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
+
+.travel .exp {
+    color: #fff;
+    top: 25%;
+    left: 10%;
+    z-index: 1;
+    width: 180px;
+    height: 180px;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: #51d77a;
+    animation: count-animate 2s linear infinite;
+}
+
+@keyframes count-animate {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.travel .exp span {
+    margin-top: 25%;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.travel .exp p {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.travel .overlay {
+    background-image: url(../../pic/home/bg-gradient-26.png);
+    background-size: cover;
+    background-position: center;
+    left: -50%;
+    top: 0;
+}
+
+.travel .sun {
+    top: 8%;
+    left: -10%;
+    animation: sun-animate 10s linear infinite;
+}
+
+@keyframes sun-animate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.travel .hearts {
+    left: 60%;
+    bottom: -20%;
+    animation: hearts 2s linear infinite alternate;
+
+}
+
+@keyframes hearts {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(.8);
+    }
+}
+
+.travel .travel__caption {
+    padding: 60px 0 0 90px;
+}
+
+.travel .travel__caption h4 {
+    font-size: 48px;
+}
+
+.travel .travel__caption .icon-img img {
+    width: 60px;
+    height: 60px;
+    transition: all .5s;
+}
+
+.travel .travel__caption .icon-img:hover img {
+    transform: rotateY(180deg);
+
+}
+
+.travel .travel__caption .icons h4 {
+    font-size: 18px;
+}
+
+.travel .travel__caption .list i {
+    color: var(--main-color);
+}
+
+.travel .travel__caption .list span {
+    font-weight: 600;
+}

@@ -1,0 +1,57 @@
+.travello {
+    padding-bottom: 300px;
+}
+
+.travello .travello__img-l {
+    bottom: 10%;
+    left: 25px;
+    animation: count-animate 2s linear infinite;
+}
+
+.travello .travello__img2-l {
+    top: 30%;
+    left: -30px;
+}
+
+.travello .travello__img-r {
+    right: 7%;
+    top: 18%;
+    animation: trans-animate 3s linear infinite;
+}
+
+@keyframes trans-animate {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(25px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.travello .travello__img2-r {
+    top: -10%;
+    right: 0;
+}
+
+.travello .travello-info {
+    padding: 70px 0 0 110px;
+}
+
+.travello .travello-info .special-title p {
+    line-height: 60px;
+}
+
+.travello .travello-info .inner .box-img {
+    width: 60px;
+    margin-bottom: 18px;
+}
+
+.travello .travello-info .inner:hover img {
+    animation: img-animate .5s;
+}
+

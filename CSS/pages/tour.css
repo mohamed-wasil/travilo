@@ -1,0 +1,75 @@
+.tour-banner {
+    background-image: url(../../pic/tour/banner-4.jpg);
+}
+
+.side .box .booking input {
+    height: 54px;
+    padding: 11px 20px;
+    margin: 5px 0;
+    line-height: 30px;
+    color: #585f5f;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+}
+
+.side .box ul li input {
+    width: 16px;
+    height: 16px;
+}
+
+.side .card-r .card-img .sm-ico {
+    top: 75%;
+    left: 5%;
+}
+
+.side .card-1 .card-img .sm-ico {
+    background-image: url(../../pic/home/t-icon-1.png);
+}
+
+.side .card-r .card-img span:first-child {
+    top: 5%;
+    left: 5%;
+    padding: 2px 10px;
+    font-size: 12px;
+    font-family: magic;
+    background-color: #ffb400;
+    line-height: 22px;
+    border-radius: 3px;
+}
+
+.side .card-r .card-img span:nth-child(2) {
+    right: 5%;
+    top: 5%;
+    font-size: 20px;
+    opacity: .5;
+    transition: var(--main-transition);
+}
+
+.side .card-r:hover .card-img span:nth-child(2) {
+    opacity: 1;
+}
+
+.star-clr {
+    color: #dbe2e0;
+}
+
+.side .card-2 .card-img .sm-ico {
+    background-image: url(../../pic/home/t-icon-2.png);
+}
+
+.side .card-3 .card-img .sm-ico {
+    background-image: url(../../pic/home/t-icon-3.png);
+}
+
+.side .card-4 .card-img .sm-ico {
+    background-image: url(../../pic/home/t-icon-8.png);
+}
+
+.side .card-5 .card-img .sm-ico {
+    background-image: url(../../pic/home/t-icon-9.png);
+}
+
+.side .card-6 .card-img .sm-ico {
+    background-image: url(../../pic/home/t-icon-10.png);
+}

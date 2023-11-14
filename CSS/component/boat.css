@@ -1,0 +1,46 @@
+.boat {
+    background-color: #496560;
+    margin-top: 50px;
+}
+
+.boat .boat__img {
+    width: 85%;
+    margin: auto;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.07);
+    top: -160px;
+}
+
+.boat .boat__img .btn {
+    width: 120px;
+    height: 120px;
+    font-size: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boat .boat__img .btn:hover {
+    background-color: #fff;
+    border: none
+}
+
+.boat .boat__cards {
+    padding-bottom: 80px;
+}
+
+.boat .boat__cards .box span {
+    font-family: magic;
+}
+
+.boat .boat__cards .box span:first-child {
+    font-size: 60px;
+    line-height: 60px;
+
+}
+
+.boat .boat__cards .box span:nth-child(2) {
+    font-size: 30px;
+    padding: 0 5px;
+}

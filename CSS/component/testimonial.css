@@ -1,0 +1,71 @@
+.testimonial .testimonial__img-l {
+    top: 22%;
+}
+
+.testimonial .testimonial__img2-l {
+    top: 33%;
+    left: -5%;
+    opacity: .4;
+}
+
+.testimonial .testimonial__img-r {
+    top: 12%;
+    right: 0;
+    opacity: .4;
+}
+
+.testimonial .slide {
+    margin-top: 80px;
+}
+
+.testimonial .carousel-info .card {
+    padding: 60px 40px 60px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 15px 0px rgba(2, 24, 93, 0.07);
+}
+
+.testimonial .carousel-info .card .icon {
+    font-size: 48px;
+    color: var(--main-color);
+    margin-bottom: 30px;
+
+}
+
+.testimonial .carousel-info .card p {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.testimonial .carousel-info .card .end {
+    margin-top: 20px;
+}
+
+.testimonial .carousel-info .card .person-img {
+    width: 100px;
+}
+
+.testimonial .carousel-info .rate i {
+    color: #faba2f;
+}
+
+.testimonial .carousel-info h5 {
+    text-transform: capitalize;
+    margin: 7px 0;
+}
+
+.testimonial .carousel-indicators {
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.testimonial .carousel-indicators .btns {
+    height: 13px;
+    width: 13px;
+    margin: 0 20px;
+    background-color: var(--seconadary-color);
+}

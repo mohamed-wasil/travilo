@@ -1,0 +1,14 @@
+.scroll .btn {
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    background-color: transparent;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+}
+
+.scroll a:hover {
+    color: #fff;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}

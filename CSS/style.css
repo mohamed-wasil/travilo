@@ -1,0 +1,41 @@
+/* start vendor css  */
+@import url(vendor/all.min.css);
+@import url(vendor/bootstrap.min.css);
+/* end vendor css  */
+
+/* start base css  */
+@import url(base/base.css);
+/* end base css  */
+
+/* start component  */
+@import url(component/special-title.css);
+@import url(component/img.css);
+@import url(component/button.css);
+@import url(component/banner.css);
+@import url(component/special-card.css);
+@import url(component/scroll.css);
+@import url(component/travel.css);
+@import url(component/package.css);
+@import url(component/travello.css);
+@import url(component/boat.css);
+@import url(component/testimonial.css);
+@import url(component/side.css);
+/* end component  */
+
+/* start layout  */
+@import url(layout/footer.css);
+@import url(layout/header.css);
+/* end layout  */
+
+/* start pages css  */
+@import url(pages/index.css);
+@import url(pages/tour.css);
+@import url(pages/destination.css);
+@import url(pages/about.css);
+@import url(pages/news.css);
+@import url(pages/contact.css);
+/* end pages css  */
+
+/* start responsive */
+@import url(responsive/responsive.css);
+/* end responsive */

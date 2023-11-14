@@ -1,0 +1,112 @@
+.ab-package {
+    background-color: #f2f4f7;
+}
+
+/* start travello */
+
+.ab-travello .travello__img-r {
+    right: 55%;
+    top: 10%;
+}
+
+.ab-travello .travello__img2-l {
+    top: -20%;
+    left: -15%;
+}
+
+.ab-travello .travello-left .special-title p {
+    line-height: 60px;
+}
+
+.ab-travello .inner {
+    margin-bottom: 80px;
+}
+
+/* end travello */
+
+/* start boat  */
+.ab-boat {
+    padding-top: 100px;
+}
+
+/* end boat  */
+
+/* start ab-testimonial  */
+.ab-testimonial {
+    background-color: #fafaee;
+}
+
+/* end ab-testimonial  */
+
+/* start team  */
+.team .team-img-l {
+    left: 5%;
+}
+
+.team .team-img2-l {
+    left: -20%;
+    top: 0;
+    opacity: .6;
+}
+
+.team .team-img-r {
+    right: 0%;
+    bottom: -20%;
+    opacity: .6;
+}
+
+.team .team-cards {
+    margin-top: 80px;
+}
+
+.team .team-cards .team-img img {
+    border-radius: 170px;
+}
+
+.team .team-cards .team-img .social {
+    left: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .5s;
+}
+
+.team .team-cards .team-img:hover .social {
+
+    left: 20px;
+}
+
+.team .team-cards .team-img .social li a {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 7px;
+    border-radius: 50%;
+}
+
+.team .team-cards .team-img .social ul li:nth-child(1) a {
+    background-color: var(--facebook-color);
+}
+
+.team .team-cards .team-img .social li:nth-child(2) a {
+    background-color: var(--twitter-color);
+}
+
+.team .team-cards .team-img .social li:nth-child(3) a {
+    background-color: var(--linkedin-color);
+}
+
+.team .team-cards .team-img .social li:nth-child(4) a {
+    background-color: var(--youtube-color);
+}
+
+.team .team-cards .sp-col {
+    padding-top: 60px;
+}
+
+/* end team  */
+
+/* start ab-partners */
+.ab-partners .partners-cards {
+    margin-top: 80px;
+}
+
+/* end ab-partners */

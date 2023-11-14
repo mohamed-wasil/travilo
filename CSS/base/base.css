@@ -1,0 +1,161 @@
+/* @import url(font.css); */
+@import url(font.css);
+
+/* variable start  */
+:root {
+    --main-color: #FF5522;
+    --seconadary-color: #6c7171;  
+    --facebook-color: #1877f2;
+    --twitter-color:  #3aacf3;
+    --youtube-color: #ff0000;
+    --linkedin-color: #3291c2;
+    --main-transition: all .3s;
+}
+
+/* variable end  */
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    transition: var(--main-transition);
+}
+
+
+body {
+    font-family: General;
+    color: var(--seconadary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: magic;
+    color: var(--seconadary-color);
+
+}
+
+p {
+    line-height: 30px;
+}
+
+.special-heading {
+    color: var(--main-color);
+    font-family: modest;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.sm-img {
+    width: 100px;
+    margin: auto;
+}
+.sm-ico {
+    width: 72px;
+    height: 72px;
+    background-position: center;
+    background-size: cover;
+    top: 45%;
+    left: 75%;
+    z-index: 333;
+}
+
+
+.box:hover img {
+    animation: img-animate .5s;
+}
+
+.clr-y {
+    color: #ffb400;
+}
+
+@keyframes img-animate {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: rotate(180deg) scale(.1);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
+}
+@keyframes ico-animate {
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(0);
+    }
+
+    40%{
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+    60%{
+        transform: translateY(-5px);
+    }
+
+    80% {
+        transform: translateY(0);
+    }
+
+
+    100% {
+        transform: translateY(0%);
+
+    }
+}
+.p-140 {
+    padding: 140px 0;
+}
+
+.p-100 {
+    padding: 100px 0;
+}
+
+.pe-80 {
+    padding-inline-end: 80px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.mb-30px {
+    margin-bottom: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}

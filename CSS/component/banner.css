@@ -1,0 +1,14 @@
+.banner {
+    height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .special-title h2{
+    font-size:90px;  
+}
+
+.banner .special-title a:hover{
+text-decoration: underline;
+}

@@ -1,0 +1,20 @@
+.banner-dest {
+    background-image: url(../../pic/destination/banner-6.jpg);
+}
+
+.destination-card {
+    padding: 140px 0 0;
+}
+
+.destination-card .special-card {
+    border: 6px solid #fff;
+    box-shadow: 0 0 20px 0px rgba(2, 24, 93, 0.20);
+}
+
+.destination-card .special-card h5 a {
+    font-size: 25px;
+}
+
+.destination-card .special-card p {
+    font-size: 12px;
+}

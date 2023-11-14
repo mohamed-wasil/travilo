@@ -1,0 +1,15 @@
+.special-title{
+    text-align: center;
+}
+.special-title h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.special-title p{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: magic;
+    line-height: 50px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,20 @@
+.contact ul li span:first-child {
+    width: 72px;
+    height: 72px;
+    background-color: var(--main-color);
+}
+
+.contact ul li a {
+    color: var(--secondary-color);
+}
+
+.contact ul li a:hover {
+    color: var(--main-color);
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+}

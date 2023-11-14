@@ -1,0 +1,675 @@
+      /* start xxl  */
+      @media screen and (max-width: 1400px) {
+
+          /* start general title  */
+          .special-title p {
+              font-size: 40px
+          }
+
+          /* end general title  */
+
+          /* start header   */
+          .header .navbar-nav>li:not(:last-child) {
+              padding-inline-end: 10px;
+          }
+
+          .header .links .call span:last-child {
+              font-size: 14px;
+          }
+
+          /* end header   */
+
+          /* start home  */
+          .home .home__title .special-title h1+p {
+              font-size: 54px;
+              line-height: 70px;
+          }
+
+          .home .home__title .booking input {
+              padding: 11px 7px;
+          }
+
+          .home .home__img-2 {
+              left: 36%;
+              top: 30%;
+          }
+
+          /* end home  */
+
+          /* start travel  */
+          .travel .travel__caption {
+              padding: 50px 0 0 50px;
+          }
+
+          .travel .travel__caption h4 {
+              font-size: 40px;
+          }
+
+          /* end travel  */
+
+          /* start travello  */
+          .travello {
+              padding-bottom: 150px;
+          }
+
+          .travello .travello__img-l {
+              bottom: 25%;
+              left: 25px;
+          }
+
+          .travello .travello__img2-l {
+              top: 20%;
+              left: -30px;
+          }
+
+          .travello .travello-info {
+              padding: 50px 0 0 50px;
+          }
+
+          /* end travello  */
+
+          /* start testimonial  */
+          .testimonial .testimonial__img-r {
+              top: 12%;
+              right: 0%;
+          }
+
+          /* end testimonial  */
+
+          /* start banner  */
+          .banner .special-title h2 {
+              font-size: 48px;
+          }
+
+          /* end banner  */
+
+          /* start team  */
+          .team .team-img-r {
+              right: 10%;
+              bottom: 0%;
+          }
+
+          /* end team  */
+      }
+
+      /* end xxl  */
+
+      /* start xl  */
+      @media screen and (max-width: 1200px) {
+
+          /* start general title  */
+          .special-title p {
+              font-size: 36px
+          }
+
+          /* end general title  */
+
+          /* start home  */
+          .home .home__bg-img {
+              left: -20%;
+              top: 50%;
+          }
+
+          .home .home__title .special-title h1+p {
+              font-size: 48px;
+              line-height: 60px;
+          }
+
+          .home .home__title .home__img-2 {
+              left: 90%;
+              top: 5%;
+          }
+
+          .home .btn-2 {
+              right: -146px;
+              top: 68%;
+          }
+
+          /* end home  */
+
+          /* star cards  */
+          .cards .card .sm-ico {
+              top: 30%;
+              left: 65%;
+          }
+
+          /* end cards  */
+
+          /* start discover  */
+          .discover .back-img-l {
+              left: 40%;
+              top: 75%;
+          }
+
+          .discover .back-img-r {
+              right: 10%;
+              top: 0%;
+          }
+
+          /* end discover  */
+
+          /* start travello */
+          .travello .travello-info .special-title p {
+              line-height: 45px;
+          }
+
+          /* end travello */
+
+          /* start testimonial  */
+          .testimonial .testimonial__img2-l {
+              top: 33%;
+              left: 0%;
+          }
+
+          .testimonial .carousel-indicators {
+              bottom: -10%;
+          }
+
+          /* end testimonial  */
+
+          /* start ab-travello  */
+          .ab-travello {
+              padding: 50px 0;
+          }
+
+          .ab-travello .travello__img2-l {
+              top: -20%;
+              left: -20%;
+          }
+
+          .ab-travello .travello__img-r {
+              right: 10%;
+              top: 10%;
+          }
+
+          /* end ab-travello  */
+
+          /* start team  */
+          .team {
+              padding: 100px 0 50px;
+          }
+
+          /* end team  */
+
+          /* start ab-testimonial  */
+          .ab-testimonial {
+              padding: 50px 0 100px;
+          }
+
+          /* end ab-testimonial  */
+
+          /* start side  */
+          .news-side .card-r .card-info>a {
+              font-size: 28px;
+          }
+
+          /* end side  */
+
+          /* start contact  */
+          .contact {
+              padding: 70px 0;
+          }
+
+          .contact .container {
+              max-width: 100%;
+          }
+
+          .map .container {
+              max-width: 100%;
+          }
+
+          /* end contact  */
+
+      }
+
+      /* end xl  */
+
+      @media screen and (max-width: 1025px){
+        .home {
+            height: 80vh;
+        }
+      }
+
+      /* start lg */
+      @media screen and (max-width: 992px) {
+
+          /* start general title  */
+          .special-title p {
+              font-size: 30px
+          }
+
+          .header nav {
+              background-color: #fff;
+          }
+
+
+          /* end general title  */
+
+          /* start home  */
+          .home {
+              height: 60vh;
+          }
+
+          .home .home__title {
+              width: 100%;
+              padding: 0 50px;
+          }
+
+          .home .home__bg-img {
+              left: 0;
+              top: -20%;
+              opacity: .5;
+          }
+
+          .home .home__title .special-title h1+p {
+              font-size: 35px;
+          }
+
+          .home .home__title .special-title p+span {
+              font-size: 16px;
+          }
+
+          .home .home__title .home__img-2 {
+              left: 96%;
+              top: 5%;
+          }
+
+          .home .home__title .booking {
+              margin-inline-end: 0;
+              padding: 22px 170px 18px 24px;
+              left: 0px;
+              right: 0px;
+          }
+
+          /* end home  */
+
+          /* start travel */
+          .travel .travel__caption {
+              padding: 0;
+              margin-bottom: 30px;
+          }
+
+          /* end travel */
+
+          /* start cards  */
+          .cards .card .sm-ico {
+              top: 37%;
+              left: 70%;
+          }
+
+          /* end cards  */
+
+          /* start travello  */
+          .travello .travello__img-l {
+              left: 3%;
+              top: 25%;
+          }
+
+          .travello .travello__img2-l {
+              top: 70%;
+              left: 10%;
+          }
+
+          /* end travello  */
+
+          /* start boat  */
+          .boat .container {
+              max-width: 100%;
+          }
+
+          .boat .boat__img .btn {
+              width: 70px;
+              height: 70px;
+              font-size: 16px;
+              padding: 0;
+          }
+
+          .boat .boat__cards .box span:first-child {
+              font-size: 48px;
+          }
+
+          /* end boat  */
+
+          /* start ab-travello  */
+          .ab-travello .travello__img2-l {
+              top: -20%;
+              left: -15%;
+          }
+
+          /* end ab-travello  */
+
+
+          /* start team  */
+          .team .team-cards .sp-col {
+              padding-top: 0;
+          }
+
+          /* end team  */
+
+          /* start box  */
+          .news-side .box-5 li {
+              width: 33.333%;
+              height: auto;
+          }
+
+          .news-side .card-r .card-info>a {
+              font-size: 28px;
+          }
+
+          /* end box  */
+
+          /* start contact */
+          .contact h3 {
+              margin-bottom: 25px;
+          }
+
+          /* end contact */
+      }
+
+      /* end lg */
+
+
+
+      /* start md  */
+      @media screen and (max-width: 768px) {
+          .container {
+              max-width: 100%;
+              padding: 0 30px;
+          }
+
+          /* start general title  */
+          .special-title p {
+              font-size: 30px
+          }
+
+          /* end general title  */
+
+
+          /* start home  */
+          .home {
+              height: 80vh;
+          }
+
+
+          .home .home__title .booking {
+              padding: 25px 25px 90px;
+          }
+
+          .home .home__title .btn-2 {
+              padding: 12px 20px;
+              right: 0;
+              width: 100%;
+              top: 100%;
+          }
+
+          /* end home  */
+
+          /* start travel */
+          .travel {
+              padding: 0 0 250px;
+          }
+
+          .travel .image-1 img {
+              left: 15%;
+              width: 70%;
+          }
+
+          .travel .image-2 {
+              left: 5%;
+          }
+
+          /* end travel */
+
+          /* start cards  */
+          .cards {
+              padding: 50px 0;
+          }
+
+          .cards .card .sm-ico {
+              top: 40%;
+              left: 75%;
+          }
+
+          /* end cards  */
+
+          /* start testimonial  */
+          .testimonial .carousel-indicators {
+              bottom: -15%;
+          }
+
+          /* end testimonial  */
+
+          /* start travello  */
+          .travello .travello-info {
+              padding: 0;
+          }
+
+          /* end travello  */
+
+          /* start boat  */
+          .boat .boat__cards {
+              top: -100px;
+              padding-bottom: 0;
+          }
+
+          /* end boat  */
+
+          /* start  banners  */
+          .banners .banner__info .special-title p {
+              font-size: 25px;
+          }
+
+          /* end  banners  */
+
+          /* start banner  */
+          .banner {
+              height: 50vh;
+          }
+
+          .banner .special-title h2 {
+              font-size: 36px;
+          }
+
+          /* start ab-travel */
+          .ab-travel {
+              padding-top: 50px;
+          }
+
+          /* end ab-travel */
+
+          /* start team  */
+          .team .team-cards .team-img {
+              max-width: 272px;
+              margin: auto;
+          }
+
+          /* end team  */
+
+          /* start ab-partners  */
+          .ab-partners {
+              padding: 50px 0;
+          }
+
+          /* end ab-partners  */
+
+
+          /* start ab-boat  */
+          .ab-boat {
+              padding-bottom: 100px;
+          }
+
+          /* end ab-boat  */
+
+
+          /* start side  */
+          .news-side .card-r .card-info>a {
+              font-size: 24px;
+          }
+
+          /* end side  */
+      }
+
+      /* end md  */
+
+      /* start sm  */
+      @media screen and (max-width: 576px) {
+
+          .home {
+              height: 150vh;
+          }
+
+          .home .home__title {
+              padding-inline-end: 5px;
+          }
+
+          .home .home__title .booking {
+              left: -20px;
+          }
+
+          /* start general title  */
+          .special-title .special-heading {
+              font-size: 25px;
+          }
+
+          .special-title p {
+              font-size: 24px
+          }
+
+          /* end general title  */
+
+
+          /* start home  */
+          .home .home__title .special-title h1+p {
+              font-size: 24px;
+              line-height: 50px;
+          }
+
+          /* end home */
+
+          /* start travel */
+          .travel {
+              padding-bottom: 100px;
+          }
+
+          .travel .travel__caption h4 {
+              font-size: 24px;
+          }
+
+          .travel .travel__caption .icons h4 {
+              font-size: 16px;
+          }
+
+          .travel .image-1 img {
+              left: 0;
+              transform: rotate(0);
+              width: 100%;
+          }
+
+          .travel .exp {
+              left: 15%;
+              top: 40%;
+              width: 110px;
+              height: 110px;
+              font-size: 16px;
+              line-height: 22px;
+
+          }
+
+          .travel .exp span {
+              margin-top: 40px;
+              font-size: 32px;
+          }
+
+          .travel .exp p {
+              font-size: 16px;
+              padding: 10px;
+              margin-top: 0;
+          }
+
+          /* end travel */
+
+          /* start cards  */
+          .cards .card .sm-ico {
+              top: 40%;
+              left: 75%;
+          }
+
+          /* end cards  */
+
+          /* start categories */
+          .categories {
+              padding: 70px 0;
+          }
+
+          /* end categories */
+
+          /* start travello  */
+          .travello {
+              padding-top: 50px;
+          }
+
+          /* end travello  */
+
+          /* start testimonial */
+          .testimonial {
+              padding: 50px 0;
+          }
+
+          /* end testimonial */
+
+          /* start banner  */
+          .banner .special-title h2 {
+              font-size: 28px;
+          }
+
+          /* start banner  */
+
+
+      }
+
+      /* end sm  */
+
+      @media screen and (max-width: 525px) {
+          .home {
+              height: 165vh;
+          }
+      }
+
+      @media screen and (max-width: 431px) {
+          .home {
+              height: 110vh;
+          }
+
+          .news-side .box-6 .social .links li {
+              width: 50px;
+              height: 50px;
+          }
+      }
+
+      /* start xs  */
+      @media screen and (max-width: 376px) {
+          .home {
+              /* height: 165vh; */
+          }
+
+          /* start cards  */
+          .cards .card .sm-ico {
+              top: 27%;
+              left: 65%;
+          }
+
+          /* end cards  */
+
+      }
+
+      /* end xs  */
+      @media screen and (max-width: 320px) {
+          .home {
+              height: 180vh;
+          }
+
+          .news-side .box-6 .social .links li {
+              width: 40px;
+              height: 40px;
+          }
+      }
